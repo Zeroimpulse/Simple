@@ -1,0 +1,62 @@
+body {
+    font-family: 'Open Sans', sans-serif;   
+    font-weight: 300;
+}
+
+h1 {
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+a:hover {
+       cursor: pointer; 
+}
+
+header {
+    text-align: center;
+}    
+
+.content {
+     text-align: center;
+}
+
+input[type=text] {
+     width: 200px;   
+    padding: 10px;
+}
+
+input[type=text]:focus {
+     outline: 3px solid #fcc66e;
+}
+
+input[type=submit] {
+    border: 3px solid #fcc66e;;
+    padding: 10px;
+    background-color: transparent;
+    -webkit-transition: all 0.5s;
+}
+
+input[type=submit]:hover {
+     background: #fcc66e;  
+    color: white;
+}
+
+ul li {
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    text-indent: -.7em;
+}
+
+ul li:before {
+    content: "\f105";
+    font-family: "FontAwesome";
+    color: #fcc66e;
+    padding-right: 7px;
+}    
+
+ul {
+     padding: 0;
+    list-style: none;
+    margin: 0;
+}
